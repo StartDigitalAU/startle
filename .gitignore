@@ -1,5 +1,2 @@
-*.sublime-project
-*.sublime-workspace
-*.codekit
 .DS_Store
 vendor/
