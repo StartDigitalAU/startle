@@ -8,15 +8,15 @@ Startle is a lightweight WordPress plugin that acts as your site's vigilant sent
 
 ## Features
 
-- 🔍 **Comprehensive Error Monitoring**
+🔍 **Comprehensive Error Monitoring**
   - Catch fatal errors, parse errors, and critical warnings
   - Customizable error level notifications
 
-- 📧 **Instant Notifications**
+📧 **Instant Notifications**
   - Email alerts to your team
   - Slack integration for real-time updates
 
-- 🎛️ **Flexible Configuration**
+🎛️ **Flexible Configuration**
   - Choose which error levels to monitor
   - Multiple notification email addresses
   - Easy Slack webhook setup
@@ -31,7 +31,7 @@ composer require thestart/startle
 
 ## Configuration
 
-1. Activate the plugin in WordPress
+1. Install via Composer
 2. Navigate to Settings > Startle
 3. Configure your notification preferences:
    - Add email addresses for notifications
