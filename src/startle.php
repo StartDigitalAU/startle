@@ -29,7 +29,7 @@ if (! class_exists('Startle')) {
 
         /**
          * @var error_levels Define PHP error levels available for reporting
-         * @since 1.4.2
+         * @since 1.0
          */
         public $error_levels = array(
             E_ERROR,

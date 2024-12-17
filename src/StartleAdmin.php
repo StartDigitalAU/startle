@@ -34,7 +34,7 @@ class StartleAdmin
 			'Startle',
 			'manage_options',
 			'startle',
-			[$this, 'settings_page']
+			[$this, 'settingsPage']
 		);
 
 		add_action('load-' . $id, [$this, 'enqueueScripts']);
@@ -130,7 +130,7 @@ class StartleAdmin
 	 * @return mixed
 	 */
 
-	public function settings_page()
+	public function settingsPage()
 	{
 		if (isset($_POST['startle_settings_nonce']) && wp_verify_nonce($_POST['startle_settings_nonce'], 'startle_settings')) {
 			update_option('startle_settings', map_deep(wp_unslash($_POST['startle_settings']), 'sanitize_text_field'));
@@ -159,7 +159,7 @@ class StartleAdmin
 ?>
 
 		<div class="wrap">
-			<h2>Error Notification Settings</h2>
+			<h2>Startle Settings</h2>
 
 			<form id="startle-settings" method="post">
 				<?php wp_nonce_field('startle_settings', 'startle_settings_nonce'); ?>
