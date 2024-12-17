@@ -1,9 +1,5 @@
 # Startle: Your WordPress Error Guardian 🚨
 
-**Startle** – because downtime doesn't knock first. Stay cool while we stay on guard.
-
-## Overview
-
 Startle is a lightweight WordPress plugin that acts as your site's vigilant sentinel. When critical errors threaten your website's stability, Startle instantly alerts you through Slack or email, ensuring you're never caught off guard by unexpected issues.
 
 ## Features
