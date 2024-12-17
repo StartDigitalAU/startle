@@ -1,0 +1,60 @@
+
+#startle-pro {
+	/*position:fixed;
+	right:30px;
+	margin-top:0px;
+    padding: 15px 30px 25px;*/
+    background: #fff;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+    z-index: 999;
+    display: inline-block;
+}
+
+#startle-pro #startle-pro-top {
+/*	margin-top: -15px;
+	margin-left: -30px;
+	margin-right: -30px;*/
+	display: inline-block;
+	padding: 18px 30px;
+    background-color: #F15D58;
+    vertical-align: middle;
+}
+
+#startle-pro > ul {
+	display: inline-block;
+	margin: 0 0 0 30px;
+	vertical-align: middle;
+	padding-left: 30px;
+}
+
+#startle-pro img {
+	width: 300px;
+}
+
+#startle-pro ul {
+	list-style: initial;
+	padding-left: 30px;
+}
+
+#startle-pro a {
+	margin-left: 15px;
+	margin-top: 5px;
+	background-color: #e2665e;
+	border-color: #cc4d3e;
+	box-shadow: 0 1px 0 #cc4d3e;
+	text-shadow: 0 -1px 1px #cc4d3e, 1px 0 1px #cc4d3e, 0 1px 1px #cc4d3e, -1px 0 1px #cc4d3e;
+	margin: 0 40px;
+}
+
+#startle-settings fieldset.error-levels span.description {
+    display: inline-block;
+    padding: 2px 8px 3px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+    margin-left: 5px;
+}
+
+#startle-settings fieldset.error-levels label {
+    width: 155px;
+}
