@@ -1,0 +1,22 @@
+{
+    "name": "thestart/startle",
+    "description": "A sleek WordPress error and downtime notifier that keeps you in the loop via Slack and email. Silent when all's good, loud when it matters.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TheStart\\Startle\\": "src/"
+        },
+        "files": [
+            "src/startle.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Joe Grant",
+            "email": "jmgrant1995@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
