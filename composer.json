@@ -1,5 +1,6 @@
 {
     "name": "thestart/startle",
+    "version": "1.0.0",
     "description": "A sleek WordPress error and downtime notifier that keeps you in the loop via Slack and email. Silent when all's good, loud when it matters.",
     "license": "MIT",
     "autoload": {
