@@ -8,7 +8,7 @@ if (! function_exists('add_action')) {
     exit();
 }
 
-define('STARTLE_VERSION', '1.0.0');
+define('STARTLE_VERSION', '1.0.1');
 
 if (! class_exists('Startle')) {
     final class Startle
@@ -38,7 +38,6 @@ if (! class_exists('Startle')) {
             E_NOTICE,
             E_USER_ERROR,
             E_USER_WARNING,
-            E_STRICT,
             E_DEPRECATED,
         );
 
@@ -92,8 +91,6 @@ if (! class_exists('Startle')) {
                     return 'E_USER_WARNING';
                 case E_USER_NOTICE: // 1024 //
                     return 'E_USER_NOTICE';
-                case E_STRICT: // 2048 //
-                    return 'E_STRICT';
                 case E_RECOVERABLE_ERROR: // 4096 //
                     return 'E_RECOVERABLE_ERROR';
                 case E_DEPRECATED: // 8192 //
@@ -133,7 +130,7 @@ if (! class_exists('Startle')) {
 }
 
 /**
- * The main function responsible for returning the one true Fatal Error Notify
+ * The main function responsible for returning the one true Startle
  * Instance to functions everywhere.
  *
  * Use this function like you would a global variable, except without needing
